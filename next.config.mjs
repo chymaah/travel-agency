@@ -1,7 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
   reactCompiler: true,
-};
 
-export default nextConfig;
+  images: {
+    domains: ["images.unsplash.com"],
+  },
+}
+
+export default nextConfig
